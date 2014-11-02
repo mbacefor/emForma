@@ -10,7 +10,7 @@ public class MyServiceClient {
     EmFormaServiceImplService serviceImpl = new EmFormaServiceImplService();
     EmFormaService service = serviceImpl.getEmFormaServiceImplPort(); 
     System.out.println(service.reverse("123456789"));
-    System.out.println(service.login("Teste", "Hello"));
+    System.out.println(service.login("Teste", "Hello")+"Teste1");
 
     }
 }
