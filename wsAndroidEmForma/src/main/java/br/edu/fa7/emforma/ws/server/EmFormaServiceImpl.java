@@ -11,7 +11,7 @@ public class EmFormaServiceImpl implements EmFormaService {
 
 	@Override
 	public Boolean login(String login, String senha) {
-		// TODO Auto-generated method stub
+		// TODO Implementar Logica
 		return true;
 	}
 }
