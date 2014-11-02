@@ -2,17 +2,18 @@ package br.edu.fa7.emforma.ws.server;
 
 import javax.jws.WebMethod;
 import javax.jws.WebService;
+
 /**
- * Web Service example  
+ * Web Service example
  * 
- * @author sursini
+ * @author Marcelo Bezerra
  */
 @WebService
 public interface EmFormaService {
-    @WebMethod
-    String reverse(String value);
-    
-    @WebMethod
-    Boolean login(String login, String senha);
-    
+	@WebMethod
+	String reverse(String value);
+
+	@WebMethod
+	Boolean login(String login, String senha);
+
 }
